@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Get domains from the confort of your Terminal." />
+        <Header title="Get domains from the comfort of your Terminal." />
         <p className="description">
           Simple paste <code>npx quickdomain</code>
         </p>
@@ -21,6 +21,7 @@ export default function Home() {
         <small>(You'll need NPM installed)</small>
 
         </a>
+        
       </main>
 
       <Footer />
