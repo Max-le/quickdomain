@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -11,13 +12,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Get domains from the confort of your Terminal." />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <code>npx quickdomain</code>
         </p>
       </main>
 
       <Footer />
+
+
+
     </div>
   )
 }
