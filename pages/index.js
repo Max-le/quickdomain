@@ -7,15 +7,20 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>⚡️ QuickDomain </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <Header title="Get domains from the confort of your Terminal." />
         <p className="description">
-          <code>npx quickdomain</code>
+          Simple paste <code>npx quickdomain</code>
         </p>
+        <a href="https://nodejs.org/en/download/" >
+
+        <small>(You'll need NPM installed)</small>
+
+        </a>
       </main>
 
       <Footer />
